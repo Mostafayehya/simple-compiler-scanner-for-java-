@@ -54,7 +54,7 @@ public class CompilerScanner {
 
         try {
 
-            inputAsScanner = new Scanner(new File("mostafa"));
+            inputAsScanner = new Scanner(new File("sampleInput"));
 
         } catch (FileNotFoundException e) {
             System.out.println("Error Reading File");
